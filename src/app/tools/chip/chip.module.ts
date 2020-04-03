@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { ChipPageRoutingModule } from './chip-routing.module';
 
 import { ChipPage } from './chip.page';
+import { LayoutModule } from '../../layout/layout.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ChipPageRoutingModule
+    ChipPageRoutingModule,
+    LayoutModule
   ],
   declarations: [ChipPage]
 })

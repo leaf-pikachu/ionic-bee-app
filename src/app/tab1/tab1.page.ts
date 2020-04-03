@@ -12,10 +12,6 @@ export class Tab1Page {
   }
 
   onClick=()=>{
-    layui.laydate.render({
-      elem: '#test1' //指定元素
-    });
-    
   }
 
 }

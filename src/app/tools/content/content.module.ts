@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { ContentPageRoutingModule } from './content-routing.module';
 
 import { ContentPage } from './content.page';
+import { LayoutModule } from '../../layout/layout.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ContentPageRoutingModule
+    ContentPageRoutingModule,
+    LayoutModule
   ],
   declarations: [ContentPage]
 })

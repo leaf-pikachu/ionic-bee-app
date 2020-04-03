@@ -7,12 +7,14 @@ import { IonicModule } from '@ionic/angular';
 import { InfiniteScrollPageRoutingModule } from './infinite-scroll-routing.module';
 
 import { InfiniteScrollPage } from './infinite-scroll.page';
+import { LayoutModule } from '../../layout/layout.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    LayoutModule,
     InfiniteScrollPageRoutingModule
   ],
   declarations: [InfiniteScrollPage]

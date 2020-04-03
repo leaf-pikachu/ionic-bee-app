@@ -103,6 +103,46 @@ const routes: Routes = [
   {
     path: 'refresher',
     loadChildren: () => import('./refresher/refresher.module').then( m => m.RefresherPageModule)
+  },
+  {
+    path: 'reorder',
+    loadChildren: () => import('./reorder/reorder.module').then( m => m.ReorderPageModule)
+  },
+  {
+    path: 'routing',
+    loadChildren: () => import('./routing/routing.module').then( m => m.RoutingPageModule)
+  },
+  {
+    path: 'searchbar',
+    loadChildren: () => import('./searchbar/searchbar.module').then( m => m.SearchbarPageModule)
+  },
+  {
+    path: 'segment',
+    loadChildren: () => import('./segment/segment.module').then( m => m.SegmentPageModule)
+  },
+  {
+    path: 'select',
+    loadChildren: () => import('./select/select.module').then( m => m.SelectPageModule)
+  },
+  {
+    path: 'slide',
+    loadChildren: () => import('./slide/slide.module').then( m => m.SlidePageModule)
+  },
+  {
+    path: 'table',
+    loadChildren: () => import('./table/table.module').then( m => m.TablePageModule)
+  },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'toolbar',
+    loadChildren: () => import('./toolbar/toolbar.module').then( m => m.ToolbarPageModule)
+  },
+  {
+    path: 'typography',
+    loadChildren: () => import('./typography/typography.module').then( m => m.TypographyPageModule)
   }
 ];
 

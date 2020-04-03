@@ -7,11 +7,15 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-list>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+    <ion-item *ngFor="let news of newsList">
+      <ion-thumbnail slot="start">
+        <ion-img [alt]="news.title" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1312059974,1893880587&fm=11&gp=0.jpg"></ion-img>
+      </ion-thumbnail>
+      <ion-label>
+        {{news.title}}
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>

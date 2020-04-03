@@ -7,12 +7,14 @@ import { IonicModule } from '@ionic/angular';
 import { GridPageRoutingModule } from './grid-routing.module';
 
 import { GridPage } from './grid.page';
+import { LayoutModule } from '../../layout/layout.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    LayoutModule,
     GridPageRoutingModule
   ],
   declarations: [GridPage]
