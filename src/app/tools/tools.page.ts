@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToolsPage implements OnInit {
 
-  private tools;
+  tools=[];
 
   constructor() {
     this.tools = [{

@@ -8,9 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   @Input("title")
-  private title:string;
+  title:string;
   @Input("defaultHref")
-  private defaultHref:string;
+  defaultHref:string;
 
   constructor() { }
 
